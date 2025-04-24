@@ -315,7 +315,7 @@ SetNetEnv(char *dev_name_list, char *port_stat_list)
 #endif
 					    "--proc-type=auto"
 		};
-		ret = probe_all_rte_devices(argv, &argc, dev_name_list);
+		// ret = probe_all_rte_devices(argv, &argc, dev_name_list);
 
 
 		/* STEP 4: build up socket mem parameter */
